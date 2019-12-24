@@ -8,12 +8,4 @@ module.exports = {
   testMatch: ['**/__spec__/**/*.spec.[jt]s?(x)'],
 
   preset: 'ts-jest',
-
-  globals: {
-    'ts-jest': {
-      diagnostics: {
-        ignoreCodes: [151001],
-      },
-    },
-  },
 };
