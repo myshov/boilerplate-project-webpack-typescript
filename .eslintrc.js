@@ -44,6 +44,7 @@ module.exports = {
             tsx: 'never',
           },
         ],
+        '@typescript-eslint/explicit-function-return-type': 'off',
       },
       settings: {
         'import/parsers': {
